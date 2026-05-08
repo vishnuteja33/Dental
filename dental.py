@@ -5,7 +5,7 @@ import pydicom
 import numpy as np
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyC9rJDt3yud6YxfrLRlP1iHmc6e-ZDB74U"
+API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 genai.configure(api_key=API_KEY)
 
 def convert_dicom_to_pil(dicom_path, save_copy=True):
